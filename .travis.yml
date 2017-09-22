@@ -28,4 +28,4 @@ branches:
   - /^v\d+\.\d+\.\d+$/
 addons:
   code_climate:
-    repo_token: 76a681d36b613129970598a0b0cb1a271beb27c4faba8c3f216648b8f5601622
+    repo_token: 6c9f6487f963f94d9e10662c678714f6c51fcc20fa8caf5b54da021b17d9ccc1
