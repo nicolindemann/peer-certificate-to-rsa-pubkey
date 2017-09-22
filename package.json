@@ -1,0 +1,40 @@
+{
+  "name": "peer-certificate-to-rsa-pubkey",
+  "version": "0.0.0-development",
+  "description": "Creates RSA Public Key DER Buffer of TLSSocket.getPeerCertificate Result",
+  "main": "./index.js",
+  "scripts": {
+    "test": "standard && nyc --reporter=lcov --reporter=text ava",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolindemann/peer-certificate-to-rsa-pubkey.git"
+  },
+  "author": "Nico Lindemann <nico.lindemann@proux.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "codeclimate-test-reporter": "^0.5.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "nyc": "^11.2.1",
+    "openssl-self-signed-certificate": "^1.1.6",
+    "openssl-wrapper": "^0.3.4",
+    "semantic-release": "^8.0.3",
+    "standard": "^10.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/nicolindemann/peer-certificate-to-rsa-pubkey/issues"
+  },
+  "homepage": "https://github.com/nicolindemann/peer-certificate-to-rsa-pubkey#readme"
+}
