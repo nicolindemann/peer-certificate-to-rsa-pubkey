@@ -10,6 +10,7 @@
 [![Code Climate](https://codeclimate.com/github/nicolindemann/peer-certificate-to-rsa-pubkey/badges/gpa.svg)](https://codeclimate.com/github/nicolindemann/peer-certificate-to-rsa-pubkey)
 [![Test Coverage](https://codeclimate.com/github/nicolindemann/peer-certificate-to-rsa-pubkey/badges/coverage.svg)](https://codeclimate.com/github/nicolindemann/peer-certificate-to-rsa-pubkey/coverage)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Known Vulnerabilities](https://snyk.io/test/npm/peer-certificate-to-rsa-pubkey/badge.svg)](https://snyk.io/test/npm/peer-certificate-to-rsa-pubkey)
 
 Creates RSA Public Key DER Buffer of TLSSocket.getPeerCertificate Result.
 
