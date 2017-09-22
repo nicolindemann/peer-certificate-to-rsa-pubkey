@@ -1,5 +1,7 @@
 # peer-certificate-to-rsa-pubkey
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicolindemann/peer-certificate-to-rsa-pubkey.svg)](https://greenkeeper.io/)
+
 Creates RSA Public Key DER Buffer of TLSSocket.getPeerCertificate Result.
 
 Based on this [stackoverflow](https://stackoverflow.com/questions/18835132/xml-to-pem-in-node-js) question and answer.
