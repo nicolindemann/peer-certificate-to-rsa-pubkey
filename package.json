@@ -1,6 +1,5 @@
 {
   "name": "peer-certificate-to-rsa-pubkey",
-  "version": "0.0.0-development",
   "description": "Creates RSA Public Key DER Buffer of TLSSocket.getPeerCertificate Result",
   "main": "./index.js",
   "scripts": {
