@@ -19,9 +19,8 @@ before_install:
 - npm install -g codecov
 before_script:
 - npm prune
-after_test:
-- codecov
 after_success:
+- codecov
 - curl -Lo travis_after_all.py https://git.io/travis_after_all
 - python travis_after_all.py
 - export $(cat .to_export_back) &> /dev/null
