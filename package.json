@@ -24,7 +24,7 @@
     "nyc": "^11.2.1",
     "openssl-self-signed-certificate": "^1.1.6",
     "openssl-wrapper": "^0.3.4",
-    "semantic-release": "^8.0.3",
+    "semantic-release": "^11.0.2",
     "standard": "^10.0.3"
   },
   "config": {
