@@ -1,6 +1,6 @@
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 
-const {exec} = require('openssl-wrapper')
+const { exec } = require('openssl-wrapper')
 const https = require('https')
 const selfSigned = require('openssl-self-signed-certificate')
 const { test } = require('ava')
@@ -19,7 +19,7 @@ test.before(() => {
 test.cb('Same result as openssl', t => {
   https.get('https://localhost:5000', (res) => {
     const libResult = lib(res.connection.getPeerCertificate()).toString('base64')
-    exec('x509', Buffer.from(selfSigned.cert), {pubkey: true, noout: true}, (err, buffer) => {
+    exec('x509', Buffer.from(selfSigned.cert), { pubkey: true, noout: true }, (err, buffer) => {
       if (err) {
         t.fail('Could not get comparison result from openssl')
       } else {
