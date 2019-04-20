@@ -1,11 +1,11 @@
+import { exec } from 'openssl-wrapper'
+import https from 'https'
+import selfSigned from 'openssl-self-signed-certificate'
+import test from 'ava'
+
+import lib from './index.js'
+
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
-
-const { exec } = require('openssl-wrapper')
-const https = require('https')
-const selfSigned = require('openssl-self-signed-certificate')
-const { test } = require('ava')
-
-const lib = require('./index.js')
 
 test.before(() => {
   const options = {
