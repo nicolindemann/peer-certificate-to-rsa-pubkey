@@ -13,19 +13,19 @@
   "author": "Nico Lindemann <nico.lindemann@proux.net>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^2.0.0",
+    "ava": "^2.2.0",
     "codeclimate-test-reporter": "^0.5.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-standard": "^4.0.0",
-    "nyc": "^14.0.0",
+    "nyc": "^14.1.1",
     "openssl-self-signed-certificate": "^1.1.6",
     "openssl-wrapper": "^0.3.4",
-    "semantic-release": "^15.13.3",
-    "standard": "^12.0.1"
+    "semantic-release": "^15.13.21",
+    "standard": "^13.1.0"
   },
   "config": {
     "commitizen": {
