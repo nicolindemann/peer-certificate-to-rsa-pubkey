@@ -13,7 +13,7 @@
   "author": "Nico Lindemann <nico.lindemann@proux.net>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^2.3.0",
+    "ava": "^3.0.0",
     "codeclimate-test-reporter": "^0.5.1",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.1.0",
