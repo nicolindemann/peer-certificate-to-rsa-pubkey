@@ -1,9 +1,8 @@
-import { exec } from 'openssl-wrapper'
-import https from 'https'
-import selfSigned from 'openssl-self-signed-certificate'
-import test from 'ava'
-
-import lib from './index.js'
+const test = require('ava')
+const exec = require('openssl-wrapper').exec
+const https = require('https')
+const selfSigned = require('openssl-self-signed-certificate')
+const lib = require('./index')
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 
@@ -42,7 +41,7 @@ test.cb('Same result as openssl', t => {
 test('Throw error if modulus or exponent is not set', t => {
   const error = t.throws(() => {
     lib({})
-  }, Error)
+  }, { instanceOf: Error })
 
   t.is(error.message, 'modulus or exponent not set')
 })

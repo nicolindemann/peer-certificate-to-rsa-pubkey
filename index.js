@@ -1,5 +1,3 @@
-'use strict'
-
 const toHex = number => { return (Number(number).toString(16).length % 2 === 0 ? '' : '0') + Number(number).toString(16) }
 const encodeLengthHex = n => { return (n <= 127) ? toHex(n) : toHex(128 + (toHex(n).length / 2)) + toHex(n) }
 const prepadSigned = hexStr => { return (parseInt(hexStr[0], 16) >= 8 ? '00' : '') + hexStr }
