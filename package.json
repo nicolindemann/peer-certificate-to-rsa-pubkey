@@ -14,7 +14,6 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^3.7.1",
-    "codeclimate-test-reporter": "^0.5.1",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^16.0.3",
